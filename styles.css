@@ -1,0 +1,168 @@
+/*
+Name: Allyson Vue
+Date: 11/19/23
+File name: styles.css
+*/
+
+/*Body*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background: url(pine.jpg);
+    display: flex;
+    display: -webkit-flex;
+    flex-flow: column nowrap;
+    align-content: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+h1 {
+    text-align: center;
+    font-family: Script MT, Brush Script Std, cursive;
+    font-size: 72px;
+}
+
+h2 {
+    font-family: Script MT, Brush Script Std, cursive;
+    text-align: center;
+    color: rgb(20, 53, 46);
+}
+
+h4 {
+    font-style: italic;
+    font-weight: lighter;
+}
+
+#Testimonials {
+    margin: 25px;
+    border-bottom: rgb(20, 53, 46) solid 1px;
+}
+
+#main {
+    display: flex;
+    display: -webkit-flex;
+    flex-flow: column;
+    align-content: center;
+    background: white;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    box-shadow: rgba(20, 33, 53, 0.719)0px 7px 8px;
+}
+
+/*Navigation*/
+
+li {
+    border-top: white solid 1px;
+    border-right: white solid 1px;
+}
+
+.nav-link {
+    color: white;
+}
+
+ul.nav a:hover {
+    color: rgb(28, 218, 114) !important;
+}
+
+header {
+    display: flex;
+    display: -webkit-flex;
+    flex-flow: column nowrap;
+    align-content: center;
+    text-align: center;
+    color: white;
+    background: rgb(20, 53, 46);
+}
+
+/*Carousel*/
+
+.carousel {
+    width: 600px;
+    height: 400px;
+    align-self: center;
+}
+
+.carousel-item {
+    width: 600px;
+    height: 400px;
+}
+
+/*Card*/
+
+.card {
+    display: flex;
+    display: -webkit-flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    text-align: center;
+    margin: 20px;
+}
+
+.card-img-top {
+    border-radius: 200px;
+    width: 100px;
+    height: 100px;
+}
+
+#ReviewCards {
+    display: flex;
+    display: -webkit-flex;
+    flex-flow: row nowrap;
+}
+
+.card p {
+    border-top: black solid 1px;
+    padding: 5px;
+}
+
+#rating1 {
+    margin-bottom: 5px;
+}
+
+#rating2 {
+    margin-bottom: 5px;
+}
+
+#rating3 {
+    margin-bottom: 5px;
+}
+
+#rating4 {
+    margin-bottom: 5px;
+}
+
+/*Rating*/
+.rating {
+    display: flex;
+    display: -webkit-flex;
+    flex-flow: row nowrap;
+}
+
+/*Contact Us*/
+
+#MapNForm {
+    display: flex;
+    display: -webkit-flex;
+    flex-flow: row nowrap;
+    margin: 25px;
+}
+
+
+/*Footer*/ 
+  footer {
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    color: white;
+    background: rgb(20, 53, 46);
+    position: fixed;
+    bottom: 0;
+  }
